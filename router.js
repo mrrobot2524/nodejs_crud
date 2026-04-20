@@ -21,6 +21,9 @@ const router = new Router();
  *                 type: string
  *               content:
  *                 type: string
+ *               picture:
+ *                 type: file
+ *                 format: binary
  *     responses:
  *       201:
  *         description: Создано
